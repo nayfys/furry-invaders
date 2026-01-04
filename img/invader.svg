@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="320" viewBox="0 0 256 320">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#eaf6ff" />
+      <stop offset="1" stop-color="#cfe9ff" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="none" />
+  <!-- face -->
+  <g transform="translate(128,140)">
+    <ellipse rx="84" ry="72" fill="#f6fbff" stroke="#dfe9f6" stroke-width="2" />
+    <!-- ears -->
+    <ellipse cx="-66" cy="-60" rx="28" ry="36" fill="#f6fbff" stroke="#dfe9f6" />
+    <ellipse cx="66" cy="-60" rx="28" ry="36" fill="#f6fbff" stroke="#dfe9f6" />
+    <!-- eyes -->
+    <ellipse cx="-32" cy="-8" rx="20" ry="24" fill="#112244" />
+    <ellipse cx="32" cy="-8" rx="20" ry="24" fill="#112244" />
+    <ellipse cx="-22" cy="-12" rx="8" ry="8" fill="#6fe6ff" />
+    <ellipse cx="42" cy="-12" rx="8" ry="8" fill="#6fe6ff" />
+    <!-- nose -->
+    <ellipse cx="0" cy="28" rx="20" ry="14" fill="#222" />
+  </g>
+</svg>
