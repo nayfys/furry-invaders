@@ -1,0 +1,15 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  background-image: url('img/background.svg');
+  background-size: cover;
+  background-position: center;
+}
+canvas {
+  display: block;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.6);
+}
