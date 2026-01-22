@@ -35,11 +35,11 @@ class Game {
     if (this.over || this.won) return;
     this.player.update();
 
-    // invader movement timing
+  
     this.moveCounter++;
     if (this.moveCounter >= this.invaderMoveInterval) {
       this.moveCounter = 0;
-      // check edges
+     
       let rightmost = -Infinity, leftmost = Infinity;
       for (let inv of this.invaders) if (inv.alive) { rightmost = max(rightmost, inv.pos.x); leftmost = min(leftmost, inv.pos.x); }
       let dx = this.invaderDir * this.invaderSpeed;
@@ -176,3 +176,4 @@ class Game {
     this.covers.push(new Cover(startX + gap * 2, y));
   }
 }
+
