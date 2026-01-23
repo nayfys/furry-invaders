@@ -142,8 +142,6 @@ class Game {
       textSize(36);
       fill(255);
       invaderSpeed = 10;
-     invaderShootInterval=60;
-     invaderMoveInterval = 30; 
       text('Game Over', width / 2, height / 2 - 10);
       textSize(18);
       text('Press R to restart', width / 2, height / 2 + 22);
@@ -179,6 +177,7 @@ class Game {
     this.covers.push(new Cover(startX + gap * 2, y));
   }
 }
+
 
 
 
